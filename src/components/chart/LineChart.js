@@ -63,6 +63,11 @@ function LineChart({ CardID }) {
 
 export default memo(LineChart);
 
+function setChartUnitAndName(Chart, Card) {
+  Chart.Options.plugins.yScalePlugin.text = Card.unit;
+  Chart.Options.plugins.title.text = Card.name;
+}
+
 function newValueAdded(Chart, CardsData, Card) {
   if (Card.updateChart) {
     if (Card.timeFromRefresh >= Card.refreshRate - 1) {
@@ -189,9 +194,4 @@ function newScaleAdded(Chart, CardsData, Card) {
       }
     }
   }
-}
-
-function setChartUnitAndName(Chart, Card) {
-  Chart.Options.plugins.yScalePlugin.text = Card.unit;
-  Chart.Options.plugins.title.text = Card.name;
 }
