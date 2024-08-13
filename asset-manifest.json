@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bartosz-cz/React_ViewDataApp/static/css/main.915e5dfb.css",
+    "main.js": "/bartosz-cz/React_ViewDataApp/static/js/main.e1337ce8.js",
+    "static/js/787.d8118572.chunk.js": "/bartosz-cz/React_ViewDataApp/static/js/787.d8118572.chunk.js",
+    "index.html": "/bartosz-cz/React_ViewDataApp/index.html",
+    "main.915e5dfb.css.map": "/bartosz-cz/React_ViewDataApp/static/css/main.915e5dfb.css.map",
+    "main.e1337ce8.js.map": "/bartosz-cz/React_ViewDataApp/static/js/main.e1337ce8.js.map",
+    "787.d8118572.chunk.js.map": "/bartosz-cz/React_ViewDataApp/static/js/787.d8118572.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.915e5dfb.css",
+    "static/js/main.e1337ce8.js"
+  ]
+}
