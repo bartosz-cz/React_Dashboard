@@ -170,6 +170,7 @@
   padding: 5px;
   padding-top: 0px;
   margin-top: -5px;
+  max-width: calc(100% - 100px);
 }
 
 .chart_menu {
