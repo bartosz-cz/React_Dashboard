@@ -69,7 +69,7 @@ function newValueAdded(Chart, CardsData, Card) {
       Card.timeFromRefresh = 0;
       let source, destiny;
       for (let i = 0; i < Card.occupiedColors.length + 2; i++) {
-        if (i < 2 || Card.occupiedColors[i - 2] != -1) {
+        if (i < 2 || Card.occupiedColors[i - 2] !== -1) {
           switch (i) {
             case 0:
               source = Card.timeBuffor;
@@ -101,7 +101,7 @@ function datasetChanged(Chart, CardsData, Card) {
       let index = 0;
       for (let i = Chart.Data.labels.length; i > 0; i++) {
         if (
-          source.timeBuffor[source.valueBuffor.length - 1 - index] ==
+          source.timeBuffor[source.valueBuffor.length - 1 - index] ===
           Chart.Data.labels[Chart.Data.labels.length - 1]
         )
           break;
@@ -124,7 +124,7 @@ function maxLengthChanged(Chart, CardsData, Card) {
   Card.timeFromRefresh = 0;
   let source, destiny;
   for (let i = 0; i < Card.occupiedColors.length + 2; i++) {
-    if (i < 2 || Card.occupiedColors[i - 2] != -1) {
+    if (i < 2 || Card.occupiedColors[i - 2] !== -1) {
       switch (i) {
         case 0:
           source = Card.timeBuffor;
