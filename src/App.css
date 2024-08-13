@@ -1,0 +1,244 @@
+/*:root {
+  --backgroundColor: black;
+  --cardBottomGradient: #005b60;
+  --cardTopGradient: #001c1f;
+  --mainColor: #005b6074;
+  --text: #f2f2f2;
+  --cardMenu: #001c1f;
+  --onCardMenu: #f2f2f2;
+  --sideMenu: #001c1f;
+  --onSideMenu: #f2f2f2;
+  --mainTitle: #001c1f;
+  --activeOption: #f2f2f2;
+  --onActiveOption: #001c1f;
+  --textColor: #f2f2f2;
+  --cardsBorderSize: 0px;
+  --borderColor: transparent;
+  --inShadow1: 0.537;
+  --inShadow2: 0.329;
+}*/
+
+:root {
+  --backgroundColor: #fafdfd;
+  --cardBottomGradient: #eff6ee;
+  --cardTopGradient: #eff6ee;
+  --mainColor: #eef6ee;
+  --text: #f2f2f2;
+  --cardMenu: #d2e7d4;
+  --onCardMenu: #00201f;
+  --sideMenu: #d2e7d4;
+  --onSideMenu: #00201f;
+  --mainTitle: #d2e7d4;
+  --activeOption: #006e3d;
+  --onActiveOption: #ffffff;
+  --textColor: #191c1d;
+  --borderColor: #a6a6a65e;
+  --borderWidth: 1px;
+  --inShadow1: 0.08;
+  --inShadow2: 0.07;
+}
+
+.border {
+  margin: 3px;
+  border-color: var(--borderColor) !important;
+  border-width: var(--borderWidth) !important;
+  border-radius: 4px;
+}
+
+.dashboard {
+  position: absolute;
+  padding: 15px 0px 15px 0px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.dashboard_settings {
+  background-color: var(--cardTopGradient);
+  width: 312px;
+  height: max-content;
+  min-height: 206px;
+  border: 0px;
+}
+
+.dashboard_header {
+  background-color: var(--mainTitle);
+  height: 41.2px;
+  margin: 0px 3px 3px 3px;
+}
+
+.dashboard_menu {
+  background-color: var(--sideMenu);
+  margin-top: 47.2px;
+  width: 66.66px;
+}
+
+.panel {
+  background: linear-gradient(
+    0deg,
+    var(--cardBottomGradient) 0%,
+    var(--cardTopGradient) 99.99%
+  );
+  width: 206px;
+  height: 206px;
+}
+
+.panel_header {
+  height: 30px;
+  padding: 5px 12px 11px 12px;
+}
+
+.panel_value {
+  color: var(--textColor);
+  font-weight: 800;
+  font-size: x-large;
+  height: 30px;
+  width: 85%;
+  max-width: 85%;
+  transform: scale(1, 1.2);
+  border-radius: 4px;
+}
+
+.panel_unit {
+  color: var(--textColor);
+  font-weight: 700;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.panel_menu {
+  background-color: var(--cardMenu);
+  height: 41.2px;
+  border-radius: 4px;
+}
+
+.panel_menu_option svg {
+  transition: transform 0.2s;
+}
+
+.panel_menu_option:hover svg {
+  transform: scale(1.2);
+}
+
+.panel_menu_option {
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: large;
+  width: 66.66px;
+  height: 40.66px;
+  color: var(--onCardMenu);
+}
+
+.chart_option {
+  font-weight: 800;
+  height: 41.2px;
+  font-size: large;
+  color: var(--textColor);
+  width: 32.66px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.chart_option svg {
+  transition: transform 0.2s;
+}
+
+.chart_option:hover svg {
+  transform: scale(1.2);
+}
+
+.option {
+  color: var(--onSideMenu);
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.option_active {
+  background-color: var(--activeOption);
+  color: var(--onActiveOption);
+  border-radius: 4px;
+}
+.option_active svg {
+  transform: scale(1.2);
+}
+.option:hover svg {
+  transform: scale(1.2);
+}
+.option svg {
+  transition: transform 0.2s;
+}
+
+.chart-canva {
+  padding: 5px;
+  padding-top: 0px;
+  margin-top: -5px;
+}
+
+.chart_menu {
+  width: 100px;
+}
+
+.form-check-label {
+  color: var(--textColor);
+}
+
+.title {
+  color: var(--textColor);
+  font-weight: 800;
+  font-size: large;
+}
+
+.title_Index {
+  color: var(--textColor);
+  font-weight: 700;
+  font-size: medium;
+  margin-top: -5px;
+  margin-left: -5px;
+  width: 20px;
+}
+
+.title_spacer {
+  width: 15px;
+}
+
+.select_spacer {
+  height: 10px;
+}
+
+.InShadow {
+  box-shadow: inset 0 10px 15px -3px rgba(0, 0, 0, var(--inShadow1)),
+    0 4px 6px -2px rgba(0, 0, 0, var(--inShadow2));
+}
+
+.cardFormSelect {
+  width: 90%;
+}
+.zoomFormSelect {
+  width: fit-content !important;
+}
+
+.FormSelect {
+  color: var(--textColor);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.form-select {
+  width: fit-content;
+}
+
+.FormSelectLabel {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  width: 5px;
+}
+.overflow-auto::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.overflow-auto::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--cardMenu);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
