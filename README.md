@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# React Data Visualization App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This React application is designed to display a variety of data through interactive charts with extensive customization options. It's ideal for real-time data monitoring and analysis across numerous parameters such as voltage, temperature, humidity, and more.
 
-## Available Scripts
+## Features
+- **Dynamic Data Display:** Real-time updates on metrics like voltage, current, pressure, etc.
+- **Flexible Layout:** Customize the layout to meet specific needs and device types.
+- **Interactive Charts:** Detailed view of data trends over time with interactive line charts, bar charts, and histograms.
+- **Customization Options:** Various settings for chart customization including colors, line styles, and visibility.
 
-In the project directory, you can run:
+## Screenshots
+Below are some screenshots demonstrating the application's capabilities:
 
-### `npm start`
+![Dashboard View](file-QTB2wy1TF2bMdqUHateKuXCU)  
+*Dashboard View: Grouped data metrics display.*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Detailed Metrics View](file-q5FfOuzGI8uIH55HF4rZA940)  
+*Detailed Metrics View: Historical trends for specific metrics.*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Compact Group View](file-yoEIeKdH0yB7XzRTwjen9n7p)  
+*Compact Group View: Quick monitoring of various data points.*
 
-### `npm test`
+![Interactive Chart View](file-s8YtFlkzoY0j3T0NRcabwx9f)  
+*Interactive Chart View: Detailed trend analysis through interactive tools.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Customizable Chart Options](file-BarDQnjVDb2IyAC0iWihtPh2)  
+*Customizable Chart Options: Adjustable display settings for thorough analysis.*
 
-### `npm run build`
+![Wide Chart Analysis](file-5k8V5gsFf5iemHhfKgfxJFYZ)  
+*Wide Chart Analysis: Extended analysis view for detailed parameter monitoring.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
+A live demo of the app is available on [GitHub Pages](https://bartosz-cz.github.io/React_ViewDataApp/). Note that the live demo does not include the real-time data stream due to limitations on GitHub Pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
+To get a local copy up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Installation and Usage
 
-### `npm run eject`
+## Installation
+To set up the application locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository**
+   - Use Git to clone the repository to your local machine:
+     ```sh
+     git clone https://github.com/yourgithub/repo.git
+     ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate to the Project Directory**
+   - Change into the project directory:
+     ```sh
+     cd repo
+     ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Install Dependencies**
+   - Install the necessary npm packages:
+     ```sh
+     npm install
+     ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Running the Application
+After installing the dependencies, you can run the application using the following command:
 
-## Learn More
+```sh
+npm start
+```
+This command will start a local development server and open the application in your default web browser. The server will continue to run, watching for any file changes and automatically refreshing the browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Once the application is up and running, you can start exploring its features:
 
-### Code Splitting
+1. **Navigating Through Tabs**
+   - The application is organized into multiple tabs, each representing a group of related data metrics. Click on the tabs on the left side of the interface to switch between different groups of data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. **Viewing and Interacting with Data**
+   - The main area of the interface displays data metrics such as voltage, current, temperature, etc. These metrics are presented in a grid format, with each metric having its own panel.
+   - Some panels display real-time data updates, while others show historical data with charts.
 
-### Analyzing the Bundle Size
+3. **Customizing the View**
+   - Each panel includes controls for customization:
+     - **Chart Type:** Switch between different chart types (e.g., line, bar) depending on how you want to visualize the data.
+     - **Zoom:** Use the zoom controls to focus on a specific time range or data point.
+     - **Color Schemes:** Adjust the color scheme of the charts to suit your preferences or to enhance readability.
+     - **Data Points:** Toggle the visibility of specific data points or lines within a chart to reduce clutter and focus on what’s important.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. **Full-Screen Mode**
+   - For a more detailed analysis, you can switch individual panels to full-screen mode by clicking the full-screen icon located on each panel.
 
-### Making a Progressive Web App
+5. **Live Updates**
+   - The application supports live data updates. As new data is received, the charts and data panels will automatically update without the need to refresh the page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. **Data Export**
+   - If needed, you can export the data from certain panels to a CSV file for further analysis or reporting. Look for the export option within the panel's settings.
 
-### Advanced Configuration
+7. **Settings and Configuration**
+   - Access the settings panel by clicking the gear icon. Here you can configure global application settings such as:
+     - Data refresh rate
+     - Default chart types
+     - Global color schemes
+     - Language and localization options
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. **Using the Live Demo**
+   - If you're trying out the live demo on GitHub Pages, note that it is a static preview and does not include live data streaming. However, it will give you a good sense of the application's interface and basic functionalities.
