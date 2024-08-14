@@ -12,7 +12,7 @@ This React application is designed to display a variety of data through interact
 ## Screenshots
 Below are some screenshots demonstrating the application's capabilities:
 
-![Dashboard View](file-QTB2wy1TF2bMdqUHateKuXCU)  
+![Dashboard View](./screenshots/View1)  
 *Dashboard View: Grouped data metrics display.*
 
 ![Detailed Metrics View](file-q5FfOuzGI8uIH55HF4rZA940)  
