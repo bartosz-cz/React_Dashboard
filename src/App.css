@@ -1,4 +1,4 @@
-/*:root {
+:root {
   --backgroundColor: black;
   --cardBottomGradient: #005b60;
   --cardTopGradient: #001c1f;
@@ -12,13 +12,13 @@
   --activeOption: #f2f2f2;
   --onActiveOption: #001c1f;
   --textColor: #f2f2f2;
-  --cardsBorderSize: 0px;
+  --borderWidth: 0px;
   --borderColor: transparent;
   --inShadow1: 0.537;
   --inShadow2: 0.329;
-}*/
+}
 
-:root {
+/*:root {
   --backgroundColor: #fafdfd;
   --cardBottomGradient: #eff6ee;
   --cardTopGradient: #eff6ee;
@@ -36,6 +36,10 @@
   --borderWidth: 1px;
   --inShadow1: 0.08;
   --inShadow2: 0.07;
+}*/
+
+body {
+  background-color: var(--backgroundColor);
 }
 
 .border {

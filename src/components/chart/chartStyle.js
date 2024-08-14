@@ -1,4 +1,4 @@
-/*export let chartBackground = "#f2f2f2";
+export let chartBackground = "#f2f2f2";
 export let textColor = "#f2f2f2";
 export let dataset0Colors = ["#54a1a7", "#005B60"];
 export const chartColors = [
@@ -13,8 +13,9 @@ export const chartColors = [
   "#212121",
   "#848484",
   true,
-];*/
+];
 
+/*
 export let chartBackground = "#eff6ee";
 export let textColor = "#191c1d";
 export let dataset0Colors = ["#1E798B", "#76b5c0"];
@@ -30,4 +31,4 @@ export let chartColors = [
   "#212121",
   "#484848",
   false,
-];
+];*/
