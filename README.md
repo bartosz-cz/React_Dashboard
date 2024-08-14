@@ -38,7 +38,7 @@ To set up the application locally, follow these steps:
 1. **Clone the Repository**
    - Use Git to clone the repository to your local machine:
      ```sh
-     git clone https://github.com/bartosz-cz/React_ViewData.git
+     git clone https://github.com/bartosz-cz/React_ViewDataApp.git
      ```
 
 2. **Navigate to the Project Directory**
