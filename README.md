@@ -6,7 +6,7 @@ This React application is designed to display a variety of data through interact
 ## Features
 - **Dynamic Data Display:** Real-time updates on metrics like voltage, current, pressure, etc.
 - **Flexible Layout:** Customize the layout to meet specific needs and device types.
-- **Interactive Charts:** Detailed view of data trends over time with interactive line charts, bar charts, and histograms.
+- **Interactive Charts:** Detailed view of data trends over time with interactive line charts.
 - **Customization Options:** Various settings for chart customization including colors, line styles, and visibility.
 
 ## Screenshots
@@ -38,7 +38,7 @@ To set up the application locally, follow these steps:
 1. **Clone the Repository**
    - Use Git to clone the repository to your local machine:
      ```sh
-     git clone https://github.com/yourgithub/repo.git
+     git clone https://github.com/bartosz-cz/React_ViewData.git
      ```
 
 2. **Navigate to the Project Directory**
@@ -70,14 +70,13 @@ Once the application is up and running, you can start exploring its features:
 
 2. **Viewing and Interacting with Data**
    - The main area of the interface displays data metrics such as voltage, current, temperature, etc. These metrics are presented in a grid format, with each metric having its own panel.
-   - Some panels display real-time data updates, while others show historical data with charts.
 
 3. **Customizing the View**
    - Each panel includes controls for customization:
-     - **Chart Type:** Switch between different chart types (e.g., line, bar) depending on how you want to visualize the data.
-     - **Zoom:** Use the zoom controls to focus on a specific time range or data point.
-     - **Color Schemes:** Adjust the color scheme of the charts to suit your preferences or to enhance readability.
-     - **Data Points:** Toggle the visibility of specific data points or lines within a chart to reduce clutter and focus on what’s important.
+     - **Chart Size:** Change depending on how you want to visualize the data.
+     - **Zoom:** Use the zoom controls to focus on a specific chart.
+     - **Global Settings:** Use gear icon to adjust the chart defualt settings like: refresh rate, maximum history size,number of data points etc.
+     - **Data Points:** Change the number of specific data points, time beetwen them or lines with scales within a chart to better compare inputs.
 
 4. **Full-Screen Mode**
    - For a more detailed analysis, you can switch individual panels to full-screen mode by clicking the full-screen icon located on each panel.
@@ -85,15 +84,5 @@ Once the application is up and running, you can start exploring its features:
 5. **Live Updates**
    - The application supports live data updates. As new data is received, the charts and data panels will automatically update without the need to refresh the page.
 
-6. **Data Export**
-   - If needed, you can export the data from certain panels to a CSV file for further analysis or reporting. Look for the export option within the panel's settings.
-
-7. **Settings and Configuration**
-   - Access the settings panel by clicking the gear icon. Here you can configure global application settings such as:
-     - Data refresh rate
-     - Default chart types
-     - Global color schemes
-     - Language and localization options
-
-8. **Using the Live Demo**
+6. **Using the Live Demo**
    - If you're trying out the live demo on GitHub Pages, note that it is a static preview and does not include live data streaming. However, it will give you a good sense of the application's interface and basic functionalities.
