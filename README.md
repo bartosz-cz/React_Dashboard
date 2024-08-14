@@ -12,22 +12,16 @@ This React application is designed to display a variety of data through interact
 ## Screenshots
 Below are some screenshots demonstrating the application's capabilities:
 
-![Dashboard View](./screenshots/View1)  
-*Dashboard View: Grouped data metrics display.*
+![Dashboard View](./screenshots/View1.png)  
+*Dashboard View: Grouped data metrics display. Dark theme.*
 
-![Detailed Metrics View](file-q5FfOuzGI8uIH55HF4rZA940)  
+![Detailed Metrics View](./screenshots/View4.png)  
 *Detailed Metrics View: Historical trends for specific metrics.*
 
-![Compact Group View](file-yoEIeKdH0yB7XzRTwjen9n7p)  
-*Compact Group View: Quick monitoring of various data points.*
+![Compact Group View](./screenshots/View2.png)  
+*Compact Group View: Quick monitoring of various data inputs.*
 
-![Interactive Chart View](file-s8YtFlkzoY0j3T0NRcabwx9f)  
-*Interactive Chart View: Detailed trend analysis through interactive tools.*
-
-![Customizable Chart Options](file-BarDQnjVDb2IyAC0iWihtPh2)  
-*Customizable Chart Options: Adjustable display settings for thorough analysis.*
-
-![Wide Chart Analysis](file-5k8V5gsFf5iemHhfKgfxJFYZ)  
+![Wide Chart Analysis](./screenshots/View6.png)  
 *Wide Chart Analysis: Extended analysis view for detailed parameter monitoring.*
 
 ## Live Demo
