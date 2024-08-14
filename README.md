@@ -31,7 +31,7 @@ Below are some screenshots demonstrating the application's capabilities:
 *Wide Chart Analysis: Extended analysis view for detailed parameter monitoring.*
 
 ## Live Demo
-A live demo of the app is available on [GitHub Pages](https://yourgithubusername.github.io/repo/). Note that the live demo does not include the real-time data stream due to limitations on GitHub Pages.
+A live demo of the app is available on [GitHub Pages](https://bartosz-cz.github.io/React_ViewDataApp/). Note that the live demo does not include the real-time data stream due to limitations on GitHub Pages.
 
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
