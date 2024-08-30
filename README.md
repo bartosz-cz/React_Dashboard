@@ -24,9 +24,6 @@ Below are some screenshots demonstrating the application's capabilities:
 ![Wide Chart Analysis](./screenshots/View6.png)  
 *Wide Chart Analysis: Extended analysis view for detailed parameter monitoring.*
 
-## Live Demo
-A live demo of the app is available on [GitHub Pages](https://bartosz-cz.github.io/React_DataViewApp/). Note that the live demo does not include the real-time data stream due to limitations on GitHub Pages.
-
 ## Getting Started
 To get a local copy up and running, follow these simple steps.
 
@@ -38,7 +35,7 @@ To set up the application locally, follow these steps:
 1. **Clone the Repository**
    - Use Git to clone the repository to your local machine:
      ```sh
-     git clone https://github.com/bartosz-cz/React_ViewDataApp.git
+     git clone https://github.com/bartosz-cz/React_Dashboard.git
      ```
 
 2. **Navigate to the Project Directory**
